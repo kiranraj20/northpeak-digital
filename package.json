@@ -1,0 +1,22 @@
+{
+  "name": "northpeak-digital",
+  "version": "1.0.0",
+  "description": "A responsive one-page marketing site for a fictional product studio, built by hand with **vanilla HTML, CSS and JavaScript** — no page builders, no frameworks. Dark theme, fully responsive, and tuned to **100 / 100** on Lighthouse Performance and Accessibility.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.4",
+    "vite": "^8.1.5"
+  }
+}

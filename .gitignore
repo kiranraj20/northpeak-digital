@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# lighthouse raw json (large; the .html report is kept for reference)
+lighthouse.report.json
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
