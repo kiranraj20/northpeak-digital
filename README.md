@@ -14,8 +14,7 @@ top Lighthouse scores: **Performance 100 · Accessibility 100 · Best Practices
 
 ## Lighthouse
 
-Measured on the production build (`npm run preview`) — the dev server is
-unminified and will always score lower, so audit the build or the deployed site.
+Measured on the deployed production build.
 
 ![Lighthouse report — Performance 100, Accessibility 100, Best Practices 100, SEO 91](screenshots/lighthouse-summary.png)
 
@@ -47,17 +46,17 @@ unminified and will always score lower, so audit the build or the deployed site.
 
 ---
 
-## Running locally
+## Deployment
 
-Requires **Node 18+**.
+Deployed on **Vercel** as a static Vite build — Vercel auto-detects the setup
+(see `vercel.json`):
 
-```bash
-npm install
-npm run dev        # http://localhost:5173
+- **Framework:** Vite
+- **Build command:** `npm run build`
+- **Output directory:** `dist`
 
-npm run build      # production build → dist/
-npm run preview    # serve the production build locally
-```
+Push the repo to GitHub and import it on Vercel (or run `vercel --prod`); no
+extra configuration is required.
 
 ---
 
