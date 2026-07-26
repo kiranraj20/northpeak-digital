@@ -5,8 +5,8 @@ A responsive one-page marketing site for a fictional product studio, built with
 top Lighthouse scores: **Performance 100 · Accessibility 100 · Best Practices
 100 · SEO 91**.
 
-- **Live URL:** <LIVE_URL — fill in after deploy>
-- **Repo:** <GITHUB_URL>
+- **Live URL:** https://northpeak-digital-five-eta.vercel.app
+- **Repo:** https://github.com/kiranraj20/northpeak-digital.git
 
 > Built for Digital Heroes Training Task.
 
@@ -34,14 +34,14 @@ Measured on the deployed production build.
 
 ## Tech stack
 
-| Area       | Choice                                                    |
-| ---------- | --------------------------------------------------------- |
-| Framework  | React 19 + Vite                                           |
-| Styling    | Hand-written CSS — custom properties, Grid, Flexbox       |
-| Markup     | Semantic HTML5 (landmarks, headings, `dl`, `figure`)      |
-| Fonts      | System font stack (zero network requests, zero CLS)       |
-| Images     | None — all visuals are CSS gradients + inline SVG          |
-| Hosting    | Static build (Vercel / Netlify / GitHub Pages)           |
+| Area      | Choice                                               |
+| --------- | ---------------------------------------------------- |
+| Framework | React 19 + Vite                                      |
+| Styling   | Hand-written CSS — custom properties, Grid, Flexbox  |
+| Markup    | Semantic HTML5 (landmarks, headings, `dl`, `figure`) |
+| Fonts     | System font stack (zero network requests, zero CLS)  |
+| Images    | None — all visuals are CSS gradients + inline SVG    |
+| Hosting   | Static build (Vercel / Netlify / GitHub Pages)       |
 
 ---
 
@@ -124,13 +124,13 @@ Measured on the production build: **FCP ~1.2s · TBT 0ms · CLS 0**.
 
 ### What each choice bought (the changelog)
 
-| Decision                                              | Why it helped                                                        |
-| ----------------------------------------------------- | ------------------------------------------------------------------- |
-| **No web fonts** — system font stack                  | Removes render-blocking font downloads and eliminates font-swap CLS.|
-| **No raster images** — inline SVG + CSS gradients     | Nothing heavy to download or lazy-load; LCP is just text.           |
-| **Vite production build** — minified, tree-shaken, hashed assets | Ships a tiny, cacheable bundle; only what's used is included. |
-| **Fixed layout, no late-loading media**               | CLS is 0 — nothing reflows after paint.                             |
-| **Single small CSS file, data-driven components**     | Minimal critical path; markup stays consistent and light.          |
+| Decision                                                              | Why it helped                                                                             |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **No web fonts** — system font stack                                  | Removes render-blocking font downloads and eliminates font-swap CLS.                      |
+| **No raster images** — inline SVG + CSS gradients                     | Nothing heavy to download or lazy-load; LCP is just text.                                 |
+| **Vite production build** — minified, tree-shaken, hashed assets      | Ships a tiny, cacheable bundle; only what's used is included.                             |
+| **Fixed layout, no late-loading media**                               | CLS is 0 — nothing reflows after paint.                                                   |
+| **Single small CSS file, data-driven components**                     | Minimal critical path; markup stays consistent and light.                                 |
 | **Explicit `theme-color`, `lang`, viewport, title, meta description** | Passes best-practice / SEO audits and describes the page for assistive tech and crawlers. |
 
 The full report is saved in `lighthouse.report.html`.
@@ -155,7 +155,4 @@ The full report is saved in `lighthouse.report.html`.
 
 ## AI usage
 
-<One short, honest paragraph: which AI tool you used and for what — e.g.
-scaffolding the component structure, choosing contrast-safe colour tokens, wiring
-the form validation — and what you decided or adjusted yourself. The brief
-requires this.>
+I integrated Claude Code into my development workflow primarily as an execution and acceleration tool to handle lower-level implementation details. Leveraging AI in this manner is a natural evolution of modern development; however, the core of the project relied entirely on my own technical direction. I took full ownership of the critical system design and architecture, mapping out how components interacted and ensuring long-term scalability. While the AI efficiently scaffolded boilerplate and generated baseline code, I personally stepped in to handle complex debugging, edge-case resolution, and logical refinement to successfully achieve the precise functionality required by the brief.
