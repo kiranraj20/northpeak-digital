@@ -16,6 +16,10 @@ top Lighthouse scores: **Performance 100 · Accessibility 100 · Best Practices
 
 Measured on the deployed production build.
 
+<img width="498" height="842" alt="Screenshot 2026-07-26 095548" src="https://github.com/user-attachments/assets/37a4151c-16cf-40ed-8763-ab44354ff42e" />
+<img width="497" height="845" alt="Screenshot 2026-07-26 095655" src="https://github.com/user-attachments/assets/b276ac64-4643-4224-841a-b04b11c7a9f5" />
+
+
 ![Lighthouse report — Performance 100, Accessibility 100, Best Practices 100, SEO 91](screenshots/lighthouse-summary.png)
 
 ![Lighthouse Accessibility detail — score 100](screenshots/lighthouse-accessibility.png)
